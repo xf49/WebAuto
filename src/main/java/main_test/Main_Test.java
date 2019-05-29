@@ -1,6 +1,7 @@
 package main_test;
 
 import webauto.AddToCart;
+import webauto.ForgetPassword;
 import webauto.Login;
 import webauto.Register;
 
@@ -14,8 +15,11 @@ public class Main_Test {
 		
 		AddToCart atc = new AddToCart();
 		
+		ForgetPassword FP = new ForgetPassword();
 		
-		atc.test();
+		FP.test();
+		
+		//atc.test();
 		
 		//register.test();
 		
