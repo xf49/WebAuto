@@ -56,13 +56,9 @@ public class Register {
 		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div/section/div/form/button")).click();
 
 		   Thread.sleep(2000);
-		   //driver.get(cd.urlAboutus);
-
-		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/section/header/section/div/div/a")).click();
-
-		   Thread.sleep(2000);
 		   
-		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div/div/h1/p/a")).click();
+
+
 	}
 	
 
