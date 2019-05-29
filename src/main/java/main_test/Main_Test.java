@@ -17,11 +17,11 @@ public class Main_Test {
 		
 		ForgetPassword FP = new ForgetPassword();
 		
-		FP.test();
+		//FP.test();
 		
 		//atc.test();
 		
-		//register.test();
+		register.test();
 		
 		//login.test();
 

@@ -2,6 +2,14 @@ package commondata;
 
 public class RegisterData {
 	
+	public String urlRegisterDhohoo="https://www.dhohoo.com/account/register";
+	public String urlRegisterYeahBra="https://shop.yeahbra.com/account/register";
+	public String urlRegisterBlendPlus="https://shop.blendplustech.com/account/register";
+	public String urlRegisterKiperLine="https://shop.kiperline.com/account/register";
+	
+	
+	
+	
     public String getRandomName() 
     { 
   
@@ -63,7 +71,7 @@ public class RegisterData {
                                     + "0123456789"
                                     + "abcdefghijklmnopqrstuvxyz"; 
   
-        int n = 6;
+        int n = 10;
         
         StringBuilder sb = new StringBuilder(n); 
   
