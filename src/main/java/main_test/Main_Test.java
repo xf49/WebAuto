@@ -21,14 +21,18 @@ public class Main_Test {
 		
 		//atc.test();
 		
-		register.test();
+		//register.test();
 		
 		
 	    Thread.sleep(4000);
 	    
-	    FP.test();
+
 		
-		//login.test();
+		login.test();
+		
+		Thread.sleep(4000);
+		
+		FP.test();
 
 	}
 

@@ -6,6 +6,10 @@ public class RegisterData {
 	public String urlRegisterYeahBra="https://shop.yeahbra.com/account/register";
 	public String urlRegisterBlendPlus="https://shop.blendplustech.com/account/register";
 	public String urlRegisterKiperLine="https://shop.kiperline.com/account/register";
+	public String urlRegisterAbeatis="https://www.abeatis.com/account/register";
+	public String urlRegister21Smarthome="https://www.21smarthome.com/account/register";
+	public String urlRegisterWiseho="https://special.wiseho.com/account/register";
+	public String urlRegisterWessme="https://shop.wessme.com/account/register";
 	
 	
 	
@@ -22,7 +26,7 @@ public class RegisterData {
         
         StringBuilder sb = new StringBuilder(n); 
   
-        for (int i = 0; i < n; i++) { 
+        for (int i = 1; i < n; i++) { 
   
 
             int index 
@@ -48,7 +52,7 @@ public class RegisterData {
         
         StringBuilder sb = new StringBuilder(n); 
   
-        for (int i = 0; i < n; i++) { 
+        for (int i = 1; i < n; i++) { 
   
 
             int index 
@@ -75,7 +79,7 @@ public class RegisterData {
         
         StringBuilder sb = new StringBuilder(n); 
   
-        for (int i = 0; i < n; i++) { 
+        for (int i = 1; i < n; i++) { 
   
 
             int index 

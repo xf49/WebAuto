@@ -28,7 +28,11 @@ public class Register {
 		urlList.add(rd.urlRegisterYeahBra);
 		urlList.add(rd.urlRegisterBlendPlus);
 		urlList.add(rd.urlRegisterKiperLine);
-	   
+		urlList.add(rd.urlRegisterAbeatis);
+		//urlList.add(rd.urlRegister21Smarthome);
+		urlList.add(rd.urlRegisterWiseho);
+		urlList.add(rd.urlRegisterWessme);
+		
      
 	for(String urllist:urlList) {
 		
@@ -39,18 +43,19 @@ public class Register {
 		   String last_name = rd.getRandomName();
 		   String email = rd.getEmail();
 		   String password = rd.getPassword();
-		   
-		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div[2]/section/div/form/div[1]/div/div[1]/input")).sendKeys(first_name);
+		 
+		 
+		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div/section/div/form/div[1]/div/div/input")).sendKeys(first_name);
 		   
 		   Thread.sleep(2000);
 	    
-		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div/section/div/form/div[2]/div/div[1]/input")).sendKeys(last_name);
+		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div/section/div/form/div[2]/div/div/input")).sendKeys(last_name);
 
 		   Thread.sleep(2000);
-		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div/section/div/form/div[3]/div/div[1]/input")).sendKeys(email);
+		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div/section/div/form/div[3]/div/div/input")).sendKeys(email);
 
 		   Thread.sleep(2000);
-		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div/section/div/form/div[4]/div/div[1]/input")).sendKeys(password);
+		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div/section/div/form/div[4]/div/div/input")).sendKeys(password);
 
 		   Thread.sleep(2000);
 		   driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div/section/div/form/button")).click();
