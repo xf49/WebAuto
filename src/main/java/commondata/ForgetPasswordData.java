@@ -10,6 +10,7 @@ public class ForgetPasswordData {
 	public String urlForgetPassword21Smarthome="https://www.21smarthome.com/account/fp";
 	public String urlForgetPasswordWiseho="https://special.wiseho.com/account/fp";
 	public String urlForgetPasswordWessme="https://shop.wessme.com/account/fp";
+	public String urlForgetPasswordLovely="https://www.lovelycostume.com/account/fp";
 	
 	
 }

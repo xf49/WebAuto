@@ -10,6 +10,7 @@ public class RegisterData {
 	public String urlRegister21Smarthome="https://www.21smarthome.com/account/register";
 	public String urlRegisterWiseho="https://special.wiseho.com/account/register";
 	public String urlRegisterWessme="https://shop.wessme.com/account/register";
+	public String urlRegisterLovely="https://www.lovelycostume.com/account/register";
 	
 	
 	

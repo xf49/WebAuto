@@ -21,7 +21,7 @@ public class Main_Test {
 		
 		//atc.test();
 		
-		//register.test();
+		register.test();
 		
 		
 	    Thread.sleep(4000);

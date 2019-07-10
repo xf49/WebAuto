@@ -25,7 +25,7 @@ public class ForgetPassword {
 	urlList.add(FPD.urlForgetPasswordBlendPlus);
 	urlList.add(FPD.urlForgetPasswordKiperLine);
 	urlList.add(FPD.urlForgetPasswordAbeatis);
-	urlList.add(FPD.urlForgetPassword21Smarthome);
+	//urlList.add(FPD.urlForgetPassword21Smarthome);
 	urlList.add(FPD.urlForgetPasswordWiseho);
 	urlList.add(FPD.urlForgetPasswordWessme);
 	

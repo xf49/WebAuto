@@ -22,7 +22,7 @@ public class Login {
 		List<String> urlList = new ArrayList<String>();
 		
 		urlList.add(ld.urlLoginDhohoo);
-		//urlList.add(ld.urlLoginYeahBra);
+		urlList.add(ld.urlLoginYeahBra);
 		urlList.add(ld.urlLoginBlendPlus);
 		urlList.add(ld.urlLoginKiperLine);
 		urlList.add(ld.urlLoginAbeatis);

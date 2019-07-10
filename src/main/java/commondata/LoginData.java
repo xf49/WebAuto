@@ -10,4 +10,5 @@ public class LoginData {
 	public String urlLogin21Smarthome="https://www.21smarthome.com/account/login";
 	public String urlLoginWiseho="https://special.wiseho.com/account/login";
 	public String urlLoginWessme="https://shop.wessme.com/account/login";
+	public String urlLoginLovely="https://www.lovelycostume.com/account/login";
 }
